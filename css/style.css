@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #161439;
+}
+
+.bg-text-blue {
+  color: #161439;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
