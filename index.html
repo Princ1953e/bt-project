@@ -23,8 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
+
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -32,36 +31,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-        background-color: #ffffff;
-      }
-
-      .bg-blue {
-        background-color: #161439;
-      }
-
-      .bg-text-blue {
-        color: #161439;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-    </style>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
       <!-- head-title -->
-      <section class="bg-blue py-2">
+      <section class="bg-blue py-3">
         <div class="container">
           <div class="row">
             <div class="nav-titl d-flex align-items-center">
@@ -171,7 +148,7 @@
         </div>
       </section>
       <!-- nav-bar -->
-      <section>
+      <section class="py-4">
         <div class="container">
           <div class="row">
             <nav class="navbar navbar-expand-lg">
@@ -359,18 +336,14 @@
                       <li class="ms-4">
                         <a
                           href="#"
-                          class="p-2"
-                          style="border: 1px solid #7f7e97; color: #7f7e97"
+                          class="p-2 text-center"
+                          style="color: #7f7e97"
                         >
                           <i class="fa-regular fa-heart"></i>
                         </a>
                       </li>
                       <li class="mx-4">
-                        <a
-                          href="#"
-                          class="p-2"
-                          style="border: 1px solid #7f7e97"
-                        >
+                        <a href="#" class="p-2 text-center lh-1">
                           <span
                             ><svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -404,10 +377,11 @@
       </section>
     </header>
     <main>
-      <section class="banner">
+      <!-- banner -->
+      <section class="banner d-flex align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-6 d-flex align-items-center">
+            <div class="col-6">
               <div class="banner-left">
                 <h1 style="font-size: 40px">
                   Never Stop
@@ -426,42 +400,107 @@
                   Every teaching and learning journey is unique Following <br />
                   We'll help guide your way.
                 </p>
-                <button class="btn rounded-pill">Start Free Trial</button>
+                <button class="btn rounded-pill text-white px-3">
+                  Start Free Trial
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
               </div>
             </div>
             <div class="col-6">
               <div class="banner-right position-relative">
-                <div class="banner-box">
+                <div class="banner-box position-relative">
                   <ul>
                     <li>
-                      <a href="#">
-                        <span></span>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="images/banner_author01.png.png"
+                          alt=""
+                          class="me-2"
+                          width="30px"
+                          height="30px"
+                        />
+                        <span class="bg-text-blue fw-medium">Robert Fox</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <span></span>
+                      <a href="#" class="d-flex align-items-center">
+                        <img
+                          src="images/banner_author02.png.png"
+                          alt=""
+                          class="me-2"
+                          width="30px"
+                          height="30px"
+                        />
+                        <span class="bg-text-blue fw-medium">Michel Jones</span>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <img src="images/banner_img.png.png" alt="" />
-                <img
-                  src="images/banner_shape02.png.png"
-                  alt=""
-                  class="position-absolute bottom-0"
-                  style="left: -30px"
-                />
-                <img
-                  src="images/bg_dots.svg.png"
-                  alt=""
-                  class="position-absolute top-0 start-0"
-                />
-                <img
-                  src="images/banner_shape01.png.png"
-                  alt=""
-                  class="position-absolute start-0 bottom-0"
-                />
+                <div class="banner-img position-absolute">
+                  <img src="images/banner_img.png.png" alt="" />
+                  <img
+                    src="images/banner_shape02.png.png"
+                    alt=""
+                    class="position-absolute bottom-0"
+                    style="left: -30px"
+                  />
+                  <img
+                    src="images/bg_dots.svg.png"
+                    alt=""
+                    class="position-absolute top-0 start-0 z-n1"
+                  />
+                  <img
+                    src="images/banner_shape01.png.png"
+                    alt=""
+                    class="position-absolute start-0 bottom-0 z-n1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category -->
+      <section class="my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title text-center">
+                <a href="#" class="px-4 py-2 rounded-pill">
+                  <h6>Trending Categories</h6>
+                </a>
+                <h2 class="mt-4 mb-3 fw-semibold">Top Category We Have</h2>
+                <p>when known printer took a galley of type scrambl edmake</p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="Category-content rounded-pill">
+                <div class="col-2">
+                  <div class="card">
+                    <a
+                      href="#"
+                      class="rounded-circle d-flex justify-content-center align-items-center"
+                    >
+                      <img
+                        src="images/Group - 1 2/Icon.png"
+                        alt="..."
+                        width="55px"
+                        height="55px"
+                      />
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
               </div>
             </div>
           </div>

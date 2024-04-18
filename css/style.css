@@ -34,6 +34,7 @@ ul {
   background-size: cover;
   position: relative;
   z-index: -1;
+  height: 520px;
 }
 .vector {
   background-image: url("../images/Vector\ \(1\).png");
@@ -46,12 +47,12 @@ ul {
   background-size: cover;
 }
 .banner-box {
-  background-image: url("../images/div.banner__author\ paints.png");
+  background-image: url("../images/div.banner__author\ paints\ \(1\).png");
   color: #fdfdfd;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 150px;
+  width: 200px;
   height: auto;
   padding: 10px;
 }
@@ -65,10 +66,65 @@ ul {
   bottom: 90%;
   left: 100%;
 }
+.banner-left button {
+  background-color: #5751e1;
+  box-shadow: rgba(22, 20, 57) 5px 5px;
+}
+.banner-box::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/banner_shape02.png.png");
+}
 .nav-icon ul li a {
   display: block;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: 1px solid #7f7e97;
+}
+.banner-box ul li {
+  margin-bottom: 12px;
+}
+.banner-img {
+  left: 30%;
+  top: -92%;
+}
+.banner-box::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/banner_shape02.svg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 80%;
+  z-index: -1;
+}
+.title a {
+  background-color: #efeefe;
+}
+.title a h6 {
+  font-size: 16px;
+  color: #5751e1;
+  display: inline-block;
+  margin: 0;
+  font-family: Inter;
+}
+.title h2 {
+  font-size: 36px;
+  color: #161439;
+  margin: 0;
+}
+.title p {
+  font-size: 16px;
+  color: #6d6c80;
+  font-family: inter;
+}
+.Category-content {
+  background-color: #f7f7f9;
+}
+.card a {
+  width: 150px;
+  height: 150px;
+  background-color: #161439;
 }
