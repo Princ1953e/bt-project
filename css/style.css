@@ -1,19 +1,24 @@
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #ffffff;
-}
-.bg-blue {
-  background-color: #161439;
-}
-
 .padding-y {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #161439;
+}
+
 .bg-text-blue {
   color: #161439;
 }
-
 a {
   text-decoration: none;
 }
@@ -28,6 +33,8 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: -1;
 }
 .vector {
   background-image: url("../images/Vector\ \(1\).png");
@@ -45,8 +52,9 @@ ul {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 300px;
+  width: 150px;
   height: auto;
+  padding: 10px;
 }
 .vector::after {
   content: "";
