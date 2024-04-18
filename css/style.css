@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #161439;
+}
+
+.bg-text-blue {
+  color: #161439;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.vector {
+  background-image: url("../images/Vector\ \(1\).png");
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  color: #fdfdfd;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.vector::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/Heading\ 3\ →\ SVG.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 68px;
+  bottom: 90%;
+  left: 100%;
+}
