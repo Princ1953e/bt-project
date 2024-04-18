@@ -2,6 +2,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
+a {
+  text-decoration: none;
+}
 .bg-blue {
   background-color: #161439;
 }
@@ -57,4 +60,11 @@ ul {
   height: 68px;
   bottom: 90%;
   left: 100%;
+}
+.nav-icon ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #7f7e97;
 }
